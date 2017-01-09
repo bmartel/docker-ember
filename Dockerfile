@@ -1,4 +1,4 @@
-FROM bmartel/docker-nginx
+FROM bmartel/nginx
 
 RUN apt-get update && apt-get install -qq -y build-essential curl git && \
   curl -sL https://deb.nodesource.com/setup_7.x | bash - && \
